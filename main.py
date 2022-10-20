@@ -21,6 +21,10 @@ def calendar_page():
     #logic to cover the calendar
     return render_template('calendar.html')
 
+@app.route('/calendar')
+def calendar():
+    return render_template("calendar.html")
+
 @app.route('/reminders')
 def reminders_page():
     #logic to cover the reminders

@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block head %}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.3/main.min.css"
+<link href="https://cdn.jsdelivr.net/npm/bootstraps@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.3/main.min.js"></script>
+<script src="{{ url_for('static', filename='calendar.js') }}"></script>
+{% endblock %}
+
+{% block content %}
+  <div class="container" style="margin:auto;">
+    <div id="calendar"></div>
+  <div>
+    <p>hello calendar</p>
+{% endblock %}

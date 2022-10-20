@@ -3,9 +3,17 @@
     "main.py": [
       {
         "id": "17f11815-8ffe-4758-b969-a6ef6337c31d",
-        "line": 6,
-        "version": 575,
-        "index": 87
+        "line": 4,
+        "version": 691,
+        "index": 64
+      }
+    ],
+    "pyproject.toml": [
+      {
+        "id": "0ebe8070-9a3e-481d-8daa-faa21f996baf",
+        "line": 3,
+        "version": 1,
+        "index": 39
       }
     ]
   }
